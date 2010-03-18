@@ -1,0 +1,9 @@
+# Markdown Library
+
+`markdown` provides an interface for processing the
+[Markdown](http://daringfireball.net/projects/markdown/) language.
+
+`markdown` is a work in progress. If you have ideas or want to
+participate, browse the
+[repository](http://bitbucket.org/akshell/markdown/) and write me to
+<anton@akshell.com>.
