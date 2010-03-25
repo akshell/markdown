@@ -4,14 +4,14 @@ Tools for processing the
 [Markdown](http://daringfireball.net/projects/markdown/) language.
 
 
-## makeHtml()
+## makeHTML()
 
-To convert markdown text into HTML, use the `makeHtml()` function:
+To convert markdown text into HTML, use the `makeHTML()` function:
 
     use('markdown');
     ...
     var text = 'Markdown *rocks*.';
-    var html = markdown.makeHtml(text);
+    var html = markdown.makeHTML(text);
    
 
 ## WMD

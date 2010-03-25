@@ -42,7 +42,7 @@
 // Sample usage:
 //
 //   var text = "Markdown *rocks*.";
-//   var html = markdown.makeHtml(text);
+//   var html = markdown.makeHTML(text);
 
 
 markdown = new ak.Module('markdown');
@@ -65,7 +65,7 @@ var g_html_blocks;
 var g_list_level = 0;
 
 
-markdown.makeHtml = function(text) {
+markdown.makeHTML = function(text) {
 //
 // Main function. The order in which other subs are called here is
 // essential. Link and image substitutions need to happen before
