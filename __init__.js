@@ -45,7 +45,7 @@
 //   var html = markdown.makeHTML(text);
 
 
-markdown = new ak.Module('markdown');
+markdown = new ak.Module('markdown', '0.1');
 
 
 (function()
