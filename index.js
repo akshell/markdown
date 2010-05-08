@@ -45,12 +45,6 @@
 //   var html = markdown.makeHTML(text);
 
 
-markdown = new ak.Module('markdown', '0.1');
-
-
-(function()
-{
-
 //
 // Globals:
 //
@@ -65,7 +59,7 @@ var g_html_blocks;
 var g_list_level = 0;
 
 
-markdown.makeHTML = function(text) {
+exports.makeHTML = function(text) {
 //
 // Main function. The order in which other subs are called here is
 // essential. Link and image substitutions need to happen before
@@ -1269,5 +1263,3 @@ var escapeCharacters_callback = function(wholeMatch,m1) {
 	var charCodeToEscape = m1.charCodeAt(0);
 	return "~E"+charCodeToEscape+"E";
 }
-
-})();
